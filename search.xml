@@ -4,23 +4,23 @@
   
     
     <entry>
-      <title>markdown</title>
-      <link href="/2022/06/20/markdown%E6%95%99%E7%A8%8B/"/>
-      <url>/2022/06/20/markdown%E6%95%99%E7%A8%8B/</url>
+      <title>你好</title>
+      <link href="/2022/06/20/1/"/>
+      <url>/2022/06/20/1/</url>
       
-        <content type="html"><![CDATA[]]></content>
+        <content type="html"><![CDATA[<p>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1</p>]]></content>
       
       
       <categories>
           
-          <category> 2 </category>
+          <category> 胡思乱想 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试2 </tag>
+            <tag> 你好 </tag>
             
         </tags>
       
@@ -38,7 +38,7 @@
       
       <categories>
           
-          <category> 名言 </category>
+          <category> 读书笔记 </category>
           
       </categories>
       
@@ -54,23 +54,73 @@
     
     
     <entry>
-      <title>html+css</title>
-      <link href="/2022/06/20/html+css%E5%9F%BA%E7%A1%80/"/>
-      <url>/2022/06/20/html+css%E5%9F%BA%E7%A1%80/</url>
+      <title>markdown</title>
+      <link href="/2022/06/20/markdown%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/06/20/markdown%E6%95%99%E7%A8%8B/</url>
       
         <content type="html"><![CDATA[]]></content>
       
       
       <categories>
           
-          <category> 2 </category>
+          <category> 编程学习 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> 测试1 </tag>
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>游戏测评</title>
+      <link href="/2022/06/20/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2022/06/20/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 胡思乱想 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测评 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>html+css</title>
+      <link href="/2022/06/20/html+css%E5%9F%BA%E7%A1%80/"/>
+      <url>/2022/06/20/html+css%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
