@@ -4,16 +4,91 @@
   
     
     <entry>
+      <title>资源</title>
+      <link href="/2022/06/23/%E6%B5%8B%E8%AF%95/"/>
+      <url>/2022/06/23/%E6%B5%8B%E8%AF%95/</url>
+      
+        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源推荐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测评 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>电影</title>
+      <link href="/2022/06/22/2/"/>
+      <url>/2022/06/22/2/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 电影推荐 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>markdown</title>
+      <link href="/2022/06/22/markdown%E6%95%99%E7%A8%8B/"/>
+      <url>/2022/06/22/markdown%E6%95%99%E7%A8%8B/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 杂谈教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>你好</title>
-      <link href="/2022/06/20/1/"/>
-      <url>/2022/06/20/1/</url>
+      <link href="/2022/06/21/1/"/>
+      <url>/2022/06/21/1/</url>
       
         <content type="html"><![CDATA[<p>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1<br>测试 1</p>]]></content>
       
       
       <categories>
           
-          <category> 胡思乱想 </category>
+          <category> 生活趣闻 </category>
           
       </categories>
       
@@ -21,6 +96,31 @@
         <tags>
             
             <tag> 你好 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>html+css</title>
+      <link href="/2022/06/21/html+css%E5%9F%BA%E7%A1%80/"/>
+      <url>/2022/06/21/html+css%E5%9F%BA%E7%A1%80/</url>
+      
+        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 编程学习 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 学习 </tag>
             
         </tags>
       
@@ -46,81 +146,6 @@
         <tags>
             
             <tag> 鲁迅 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>markdown</title>
-      <link href="/2022/06/20/markdown%E6%95%99%E7%A8%8B/"/>
-      <url>/2022/06/20/markdown%E6%95%99%E7%A8%8B/</url>
-      
-        <content type="html"><![CDATA[]]></content>
-      
-      
-      <categories>
-          
-          <category> 编程学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>游戏测评</title>
-      <link href="/2022/06/20/%E6%B5%8B%E8%AF%95/"/>
-      <url>/2022/06/20/%E6%B5%8B%E8%AF%95/</url>
-      
-        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 胡思乱想 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 测评 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>html+css</title>
-      <link href="/2022/06/20/html+css%E5%9F%BA%E7%A1%80/"/>
-      <url>/2022/06/20/html+css%E5%9F%BA%E7%A1%80/</url>
-      
-        <content type="html"><![CDATA[<p>“阿!这不是我二十年来时时记得的故乡?”</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> 编程学习 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 学习 </tag>
             
         </tags>
       

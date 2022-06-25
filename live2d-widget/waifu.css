@@ -1,16 +1,16 @@
 #waifu-toggle {
 	background-color: #fa0;
 	border-radius: 5px;
-	bottom: 66px;
+	bottom: 150px;
 	color: #fff;
 	cursor: pointer;
 	font-size: 12px;
-    left: 0;
+    right: -50px;
 	margin-left: -100px;
 	padding: 5px 2px 5px 5px;
 	position: fixed;
 	transition: margin-left 1s;
-	width: 60px;
+	width: 40px;
 	writing-mode: vertical-rl;
 }
 
@@ -24,7 +24,7 @@
 
 #waifu {
 	bottom: -1000px;
-	left: 0;
+	right: 110px;
 	line-height: 0;
 	margin-bottom: -10px;
 	position: fixed;
