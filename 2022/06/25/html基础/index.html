@@ -1,0 +1,658 @@
+<!DOCTYPE html><html lang="zh-CN" data-theme="light"><head><meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"><title>html | Sliang’ blog</title><meta name="keywords" content="html"><meta name="author" content="Sliang"><meta name="copyright" content="Sliang"><meta name="format-detection" content="telephone=no"><meta name="theme-color" content="#ffffff"><meta name="description" content="html基础">
+<meta property="og:type" content="article">
+<meta property="og:title" content="html">
+<meta property="og:url" content="http://sliang2000.github.io/2022/06/25/html%E5%9F%BA%E7%A1%80/index.html">
+<meta property="og:site_name" content="Sliang’ blog">
+<meta property="og:description" content="html基础">
+<meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg">
+<meta property="article:published_time" content="2022-06-25T13:09:00.000Z">
+<meta property="article:modified_time" content="2022-08-15T10:21:07.750Z">
+<meta property="article:author" content="Sliang">
+<meta property="article:tag" content="html">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg"><link rel="shortcut icon" href="/../imgs/logo.png"><link rel="canonical" href="http://sliang2000.github.io/2022/06/25/html%E5%9F%BA%E7%A1%80/"><link rel="preconnect" href="//cdn.jsdelivr.net"/><link rel="preconnect" href="//busuanzi.ibruce.info"/><link rel="manifest" href="/pwa/manifest.json"/><link rel="apple-touch-icon" sizes="180x180" href="/pwa/apple-touch-icon.png"/><link rel="icon" type="image/png" sizes="32x32" href="/pwa/32.png"/><link rel="icon" type="image/png" sizes="16x16" href="/pwa/16.png"/><link rel="mask-icon" href="/pwa/safari-pinned-tab.svg" color="#5bbad5"/><link rel="stylesheet" href="/css/index.css"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.css" media="print" onload="this.media='all'"><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.min.css" media="print" onload="this.media='all'"><script>const GLOBAL_CONFIG = { 
+  root: '/',
+  algolia: undefined,
+  localSearch: undefined,
+  translate: undefined,
+  noticeOutdate: {"limitDay":365,"position":"top","messagePrev":"It has been","messageNext":"days since the last update, the content of the article may be outdated."},
+  highlight: {"plugin":"highlighjs","highlightCopy":true,"highlightLang":true,"highlightHeightLimit":200},
+  copy: {
+    success: '复制成功',
+    error: '复制错误',
+    noSupport: '浏览器不支持'
+  },
+  relativeDate: {
+    homepage: true,
+    post: true
+  },
+  runtime: '',
+  date_suffix: {
+    just: '刚刚',
+    min: '分钟前',
+    hour: '小时前',
+    day: '天前',
+    month: '个月前'
+  },
+  copyright: {"limitCount":100,"languages":{"author":"作者: Sliang","link":"链接: ","source":"来源: Sliang’ blog","info":"著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。"}},
+  lightbox: 'fancybox',
+  Snackbar: {"chs_to_cht":"你已切换为繁体","cht_to_chs":"你已切换为简体","day_to_night":"你已切换为深色模式","night_to_day":"你已切换为浅色模式","bgLight":"#49b1f5","bgDark":"#1f1f1f","position":"bottom-left"},
+  source: {
+    justifiedGallery: {
+      js: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.js',
+      css: 'https://cdn.jsdelivr.net/npm/flickr-justified-gallery/dist/fjGallery.min.css'
+    }
+  },
+  isPhotoFigcaption: false,
+  islazyload: false,
+  isAnchor: true
+}</script><script id="config-diff">var GLOBAL_CONFIG_SITE = {
+  title: 'html',
+  isPost: true,
+  isHome: false,
+  isHighlightShrink: false,
+  isToc: true,
+  postUpdate: '2022-08-15 18:21:07'
+}</script><noscript><style type="text/css">
+  #nav {
+    opacity: 1
+  }
+  .justified-gallery img {
+    opacity: 1
+  }
+
+  #recent-posts time,
+  #post-meta time {
+    display: inline !important
+  }
+</style></noscript><script>(win=>{
+    win.saveToLocal = {
+      set: function setWithExpiry(key, value, ttl) {
+        if (ttl === 0) return
+        const now = new Date()
+        const expiryDay = ttl * 86400000
+        const item = {
+          value: value,
+          expiry: now.getTime() + expiryDay,
+        }
+        localStorage.setItem(key, JSON.stringify(item))
+      },
+
+      get: function getWithExpiry(key) {
+        const itemStr = localStorage.getItem(key)
+
+        if (!itemStr) {
+          return undefined
+        }
+        const item = JSON.parse(itemStr)
+        const now = new Date()
+
+        if (now.getTime() > item.expiry) {
+          localStorage.removeItem(key)
+          return undefined
+        }
+        return item.value
+      }
+    }
+  
+    win.getScript = url => new Promise((resolve, reject) => {
+      const script = document.createElement('script')
+      script.src = url
+      script.async = true
+      script.onerror = reject
+      script.onload = script.onreadystatechange = function() {
+        const loadState = this.readyState
+        if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+        script.onload = script.onreadystatechange = null
+        resolve()
+      }
+      document.head.appendChild(script)
+    })
+  
+      win.activateDarkMode = function () {
+        document.documentElement.setAttribute('data-theme', 'dark')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#0d0d0d')
+        }
+      }
+      win.activateLightMode = function () {
+        document.documentElement.setAttribute('data-theme', 'light')
+        if (document.querySelector('meta[name="theme-color"]') !== null) {
+          document.querySelector('meta[name="theme-color"]').setAttribute('content', '#ffffff')
+        }
+      }
+      const t = saveToLocal.get('theme')
+    
+          if (t === 'dark') activateDarkMode()
+          else if (t === 'light') activateLightMode()
+        
+      const asideStatus = saveToLocal.get('aside-status')
+      if (asideStatus !== undefined) {
+        if (asideStatus === 'hide') {
+          document.documentElement.classList.add('hide-aside')
+        } else {
+          document.documentElement.classList.remove('hide-aside')
+        }
+      }
+    
+    const detectApple = () => {
+      if(/iPad|iPhone|iPod|Macintosh/.test(navigator.userAgent)){
+        document.documentElement.classList.add('apple')
+      }
+    }
+    detectApple()
+    })(window)</script><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/static-butterfly/dist/css/index.min.css"><meta name="generator" content="Hexo 6.2.0"></head><body><div id="web_bg"></div><div id="sidebar"><div id="menu-mask"></div><div id="sidebar-menus"><div class="avatar-img is-center"><img src="/../imgs/logo.png" onerror="onerror=null;src='/img/friend_404.gif'" alt="avatar"/></div><div class="sidebar-site-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><hr/><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 专栏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/question/"><i class="fa-fw fas fa-folder-open"></i><span> 问题</span></a></li><li><a class="site-page child" href="/share/"><i class="fa-fw fas fa-heart"></i><span> 分享</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 日常</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-folder-open"></i><span> 观影</span></a></li><li><a class="site-page child" href="/think/"><i class="fa-fw fas fa-folder-open"></i><span> 想法</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div></div></div><div class="post" id="body-wrap"><header class="not-top-img" id="page-header"><nav id="nav"><span id="blog_name"><a id="site-name" href="/">Sliang’ blog</a></span><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="/"><i class="fa-fw fas fa-home"></i><span> 首页</span></a></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fa fa-heartbeat"></i><span> 文章</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/archives/"><i class="fa-fw fas fa-archive"></i><span> 归档</span></a></li><li><a class="site-page child" href="/tags/"><i class="fa-fw fas fa-tags"></i><span> 标签</span></a></li><li><a class="site-page child" href="/categories/"><i class="fa-fw fas fa-folder-open"></i><span> 分类</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 专栏</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/question/"><i class="fa-fw fas fa-folder-open"></i><span> 问题</span></a></li><li><a class="site-page child" href="/share/"><i class="fa-fw fas fa-heart"></i><span> 分享</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><span> 日常</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/movies/"><i class="fa-fw fas fa-folder-open"></i><span> 观影</span></a></li><li><a class="site-page child" href="/think/"><i class="fa-fw fas fa-folder-open"></i><span> 想法</span></a></li></ul></div><div class="menus_item"><a class="site-page group" href="javascript:void(0);"><i class="fa-fw fas fa-heart"></i><span> 我的</span><i class="fas fa-chevron-down"></i></a><ul class="menus_item_child"><li><a class="site-page child" href="/link/"><i class="fa-fw fas fa-link"></i><span> 友鏈</span></a></li><li><a class="site-page child" href="/about/"><i class="fa-fw fas fa-heart"></i><span> 关于</span></a></li></ul></div></div><div id="toggle-menu"><a class="site-page"><i class="fas fa-bars fa-fw"></i></a></div></div></nav></header><main class="layout" id="content-inner"><div id="post"><div id="post-info"><h1 class="post-title">html</h1><div id="post-meta"><div class="meta-firstline"><span class="post-meta-date"><i class="far fa-calendar-alt fa-fw post-meta-icon"></i><span class="post-meta-label">发表于</span><time class="post-meta-date-created" datetime="2022-06-25T13:09:00.000Z" title="发表于 2022-06-25 21:09:00">2022-06-25</time><span class="post-meta-separator">|</span><i class="fas fa-history fa-fw post-meta-icon"></i><span class="post-meta-label">更新于</span><time class="post-meta-date-updated" datetime="2022-08-15T10:21:07.750Z" title="更新于 2022-08-15 18:21:07">2022-08-15</time></span><span class="post-meta-categories"><span class="post-meta-separator">|</span><i class="fas fa-inbox fa-fw post-meta-icon"></i><a class="post-meta-categories" href="/categories/tutorial/">tutorial</a></span></div><div class="meta-secondline"><span class="post-meta-separator">|</span><span class="post-meta-wordcount"><i class="far fa-file-word fa-fw post-meta-icon"></i><span class="post-meta-label">字数总计:</span><span class="word-count">2.4k</span><span class="post-meta-separator">|</span><i class="far fa-clock fa-fw post-meta-icon"></i><span class="post-meta-label">阅读时长:</span><span>7分钟</span></span><span class="post-meta-separator">|</span><span class="post-meta-pv-cv" id="" data-flag-title="html"><i class="far fa-eye fa-fw post-meta-icon"></i><span class="post-meta-label">阅读量:</span><span id="busuanzi_value_page_pv"><i class="fa-solid fa-spinner fa-spin"></i></span></span></div></div></div><article class="post-content" id="article-container"><h1 id="文档说明、文件结构、功能标签"><a href="#文档说明、文件结构、功能标签" class="headerlink" title="文档说明、文件结构、功能标签"></a>文档说明、文件结构、功能标签</h1><blockquote>
+<p>注:<br>HTML&#x2F;HTML5 骨架相关基础标签</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>分类</th>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>文档声明</td>
+<td>&lt;!DOCTYPE&gt;</td>
+<td>用于告诉浏览器此文档的类型是什么处于<html>标签之前。用于告诉浏览器此文档的类型是什么。目前开发中常用的声明是<!DOCTYPE html>，表示声明一个 HTML5 文档。它不属于 HTML 标签，而是一条指令</td>
+</tr>
+<tr>
+<td>文档结构标签</td>
+<td>html，head，title，body</td>
+<td>（1）html 标签：每创建一个 HTML 文件，都需要创建 html 标签对。除了声明文档类型的代码，其他的所有内容都存放在 html 标签对中；（2） head 标签：定义文档的头部，用来包含网页的配置（例如网页的标题 title，网页的基础配置 meta 都放在 head 中）；（3）title 标签：定义网页的标题，标题内容会显示在浏览器的标签栏上（4）body 标签：定义网页的主体，例如：网页中的图片、文字等</td>
+</tr>
+<tr>
+<td>功能标签</td>
+<td>meta</td>
+<td>元标签，用来表示网页的基础配置</td>
+</tr>
+</tbody></table>
+<h1 id="块级元素"><a href="#块级元素" class="headerlink" title="块级元素"></a>块级元素</h1><blockquote>
+<p>注:<br>块级元素可以独占一行，默认自上而下排列，可以设置宽高。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>h1~h6</td>
+<td>一级标题 ~ 六级标题</td>
+</tr>
+<tr>
+<td>p</td>
+<td>段落标签，用来描述网页中的段落内容</td>
+</tr>
+<tr>
+<td>br</td>
+<td>换行标签，是一个空标记（强制换行）</td>
+</tr>
+<tr>
+<td>hr</td>
+<td>水平线标签，定义一个水平线</td>
+</tr>
+<tr>
+<td>div</td>
+<td>用于页面区域的划分。它就像一个容器，用来放某一个区域的内容</td>
+</tr>
+<tr>
+<td>ul,&amp;nbsp; ol</td>
+<td>定义无序列表，定义有序列表</td>
+</tr>
+<tr>
+<td>li</td>
+<td>定义列表项，与 ul 或者 ol 配合使用</td>
+</tr>
+<tr>
+<td>dt,&amp;nbsp; dd</td>
+<td>定义列表中的项目， 描述列表中的项目</td>
+</tr>
+<tr>
+<td>figure</td>
+<td>定义一段独立的内容</td>
+</tr>
+<tr>
+<td>figcaption</td>
+<td>定义 figure 元素的标题</td>
+</tr>
+<tr>
+<td>from</td>
+<td>表单标签，里面包含很多搜集信息的表单元素，如输入框，复选框等</td>
+</tr>
+<tr>
+<td>table，canvas</td>
+<td>定义 HTML 表格，通过脚本（通常是 JavaScript）来绘制图形</td>
+</tr>
+<tr>
+<td>pre</td>
+<td>预格式化的文本</td>
+</tr>
+</tbody></table>
+<h1 id="区块标签"><a href="#区块标签" class="headerlink" title="区块标签"></a>区块标签</h1><blockquote>
+<p>注：<br>html5 新增的语义化标签</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>header</td>
+<td>定义页头</td>
+</tr>
+<tr>
+<td>nav</td>
+<td>定义导航</td>
+</tr>
+<tr>
+<td>main</td>
+<td>定义页面的主体区域</td>
+</tr>
+<tr>
+<td>aside</td>
+<td>可用作文章的侧栏</td>
+</tr>
+<tr>
+<td>article</td>
+<td>可用作文章的内容</td>
+</tr>
+<tr>
+<td>section</td>
+<td>可用作文章的区域快，类似于 div</td>
+</tr>
+<tr>
+<td>footer</td>
+<td>定义页脚</td>
+</tr>
+</tbody></table>
+<h1 id="内联元素"><a href="#内联元素" class="headerlink" title="内联元素"></a>内联元素</h1><blockquote>
+<p>注：<br>内联元素不会自占一行，与其他内联元素在同一行显示，且宽高由内容撑起。</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>a</td>
+<td>超链接标签，用于从一张页面链接到另一张页面</td>
+</tr>
+<tr>
+<td>span</td>
+<td>用来组合文档中的行内元素，一般用来包裹文字</td>
+</tr>
+<tr>
+<td>label</td>
+<td>为 input 元素定义标注（标记）label 可设置 for 属性</td>
+</tr>
+<tr>
+<td>b, strong</td>
+<td>字体加粗标签， 用于强调文本的标签字体会加粗</td>
+</tr>
+<tr>
+<td>i, u</td>
+<td>斜体文本标签， 下划线文本标签</td>
+</tr>
+<tr>
+<td>em</td>
+<td>用于强调文本的标签，字体变成斜体</td>
+</tr>
+<tr>
+<td>s, del</td>
+<td>在字体上画删除线标签</td>
+</tr>
+<tr>
+<td>sub, sup</td>
+<td>上标， 下标标签</td>
+</tr>
+<tr>
+<td>mark</td>
+<td>突出显示文本的标签，字体会有背景颜色，默认的是黄色</td>
+</tr>
+<tr>
+<td>datalist</td>
+<td>标签&#x2F;控件，需要结合 option 标签使用</td>
+</tr>
+</tbody></table>
+<h1 id="特殊内联元素"><a href="#特殊内联元素" class="headerlink" title="特殊内联元素"></a>特殊内联元素</h1><blockquote>
+<p>注：<br>可以设置宽高，但不独占一行</p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>标签名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>img</td>
+<td>图片标签，用于在网页中嵌入图片</td>
+</tr>
+<tr>
+<td>audio</td>
+<td>音频标签，用于在页面中引入音频</td>
+</tr>
+<tr>
+<td>video</td>
+<td>视频标签，用于在页面中引入视频</td>
+</tr>
+<tr>
+<td>input</td>
+<td>定义用户可输入数据的输入字段。例如登录页面的用户名和密码框，都是使用 input 标签</td>
+</tr>
+<tr>
+<td>select</td>
+<td>定义下拉列表</td>
+</tr>
+<tr>
+<td>option</td>
+<td>定义下拉列表项，需要与 select 配合使用（块元素，写在这里是因为它需要跟 select 标签一起使用）</td>
+</tr>
+<tr>
+<td>textarea</td>
+<td>定义多行文本框，常用于留言框、备注框等</td>
+</tr>
+</tbody></table>
+<h1 id="转义字符"><a href="#转义字符" class="headerlink" title="转义字符"></a>转义字符</h1><table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>&amp;nbsp; </code></td>
+<td>表示空格符号</td>
+</tr>
+<tr>
+<td><code>&amp;lt; </code></td>
+<td>表示小于号“&lt;”</td>
+</tr>
+<tr>
+<td><code>&amp;gt;</code></td>
+<td>表示小于号“&lt;”</td>
+</tr>
+<tr>
+<td><code>&amp;copy;</code></td>
+<td>表示版权符号“©”</td>
+</tr>
+</tbody></table>
+<h1 id="表格标签"><a href="#表格标签" class="headerlink" title="表格标签"></a>表格标签</h1><table>
+<thead>
+<tr>
+<th>标签名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>table</td>
+<td>表格标签</td>
+</tr>
+<tr>
+<td>tr</td>
+<td>表格行</td>
+</tr>
+<tr>
+<td>td</td>
+<td>表格列</td>
+</tr>
+<tr>
+<td>th</td>
+<td>标签，可替代 td 标签，用来设置表格的标题</td>
+</tr>
+<tr>
+<td>thead</td>
+<td>定义表格头部</td>
+</tr>
+<tr>
+<td>tbody</td>
+<td>定义表格主体内容</td>
+</tr>
+<tr>
+<td>tfoot</td>
+<td>定义表格尾部</td>
+</tr>
+<tr>
+<td>caption</td>
+<td>设置表格的标题</td>
+</tr>
+</tbody></table>
+<h1 id="标签中的属性"><a href="#标签中的属性" class="headerlink" title="标签中的属性"></a>标签中的属性</h1><table>
+<thead>
+<tr>
+<th>属性名</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>lang</td>
+<td>html 标签的属性，用来标记网页的语言；常见属性值有：”en”和”zh”；en 代表英语, zh 代表中文</td>
+</tr>
+<tr>
+<td>charset</td>
+<td>meta 标签的属性，声明页面文档使用的字符编码类型。常用的属性值有：UTF-8 和 GB2312</td>
+</tr>
+<tr>
+<td>type</td>
+<td>修改无序列表与有序列表默认的前导样式（已被废弃，了解即可）</br> 1、type 属性写在无序列表中，属性值有：</br>（1）disc：默认值，实心圆样式</br>（2）circle： 空心圆样式</br>（3）square：实心方块样式</br>2、type 属性写在无序列表中，属性值有：</br>（1）1：默认值，数字编号</br>（2）A：大写英文编号</br>（3）i：小写罗马数字编号</br>（4）I：大写罗马数字编号</br>（5）a：小写英文编号</td>
+</tr>
+<tr>
+<td>start</td>
+<td>有序列表的属性，指定列表编号的起始值，能修改有序列表标签默认的前导样式（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>reversed</td>
+<td>有序列表的属性，指定列表中的条目是否倒序排列的（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>src</td>
+<td>（1）img 标签的属性，指定图片的路径（2）audio 标签和 video 标签也可以设置 src 属性，指定音频、视频的路径</td>
+</tr>
+<tr>
+<td>alt</td>
+<td>img 标签的属性，用来对引入的图片进行文本描述</td>
+</tr>
+<tr>
+<td>width</td>
+<td>规定元素的宽度。此属性不常用，了解即可。后续学习 css，会使用 css 样式设置元素宽度</td>
+</tr>
+<tr>
+<td>height</td>
+<td>规定元素的高度。此属性不常用，了解即可。后续学习 css，会使用 css 样式设置元素高度。注意，height 或者 width 如果省略其中一个属性，则按照图片原始比例缩放图片</td>
+</tr>
+<tr>
+<td>href</td>
+<td>a 标签属性，规定该链接要跳转到目标页面的地址</td>
+</tr>
+<tr>
+<td>title</td>
+<td>a 标签属性，设置鼠标悬停的文本</td>
+</tr>
+<tr>
+<td>target</td>
+<td>a 标签属性，规定在何处打开链接文档；如果属性值为 blank 或_blank，会打开新的标签页</td>
+</tr>
+<tr>
+<td>controls</td>
+<td>audio&#x2F;video 的属性，用于显示播放控件</td>
+</tr>
+<tr>
+<td>autoplay</td>
+<td>audio&#x2F;video 的属性，设置音频&#x2F;视频可以循环播放</td>
+</tr>
+<tr>
+<td>loop</td>
+<td>audio&#x2F;video 的属性，设置音频&#x2F;视频可以循环播放</td>
+</tr>
+<tr>
+<td>class</td>
+<td>所有标签都可以使用这个属性，用来定义元素的类名（后续学习 css，会有详细的讲解）</td>
+</tr>
+<tr>
+<td>action</td>
+<td>form 标签的属性，用来设置 form 表单的数据要提交到哪个地址。提交到哪个地址，后端开发会告诉我们（不常用，了解一下。提交数据常用 ajax，后面会学习到的）</td>
+</tr>
+<tr>
+<td>method</td>
+<td>form 标签的属性，用来设置表单的提交方式，常用的方式有 get 或 post（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>rows</td>
+<td>textarea 标签属性，设置多行文本框有多少列</td>
+</tr>
+<tr>
+<td>cols</td>
+<td>textarea 标签属性，设置多行文本框有多少行</td>
+</tr>
+<tr>
+<td>list</td>
+<td>datalist 控件的属性，二者结合，可以与输入框绑定，为输入框设置备选项（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>border</td>
+<td>边框属性，可为 table 添加边框</td>
+</tr>
+<tr>
+<td>border-collapse</td>
+<td>css 样式，通常给表格设置 border-collapse：collapse；让表格边框合并，成为单线表格;</td>
+</tr>
+<tr>
+<td>colspan</td>
+<td>表格标签的属性，实现跨列合并的效果，用来设置 td 或 th 跨行合并</td>
+</tr>
+<tr>
+<td>rowspan</td>
+<td>表格标签的属性，实现跨行合并的效果，用来设置 td 或 th 跨行合并</td>
+</tr>
+<tr>
+<td>cellspacing</td>
+<td>设置表格单元格内容与边框之间的间隙（不常用，了解即可）</td>
+</tr>
+<tr>
+<td>cellpadding</td>
+<td>设置两个单元格之间的间隙（不常用，了解即可）</td>
+</tr>
+</tbody></table>
+<h1 id="input-元素中的属性"><a href="#input-元素中的属性" class="headerlink" title="input 元素中的属性"></a>input 元素中的属性</h1><table>
+<thead>
+<tr>
+<th>属性名称</th>
+<th>描述</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>type</td>
+<td>用来定义表单元素的类型。属性值如下：</br>（1）text：单行文本输入框</br>（2）radio：单选按钮</br>（3）checkbox：复选框</br>（4）password：密码框</br>（5）button：普通按钮，也可以直接写成 button 按钮，例如：<button>按钮标签</button></br>（6）submit：提交按钮</br>（7）reset：重置按钮</br>（8）color：颜色控件（不常用，了解即可）</br>（9）date：日期控件</br>（10）time：时间控件</br>（11）email：电子邮件输入控件</br>（12）file：文件选择控件，需要上传本地文件时，可以使用它</br>（13）number：表示数字输入控件</br>（14）range：表示拖拽条（不常用，了解即可）</br>（15）search：t 表示搜索框（不常用，了解即可）</br>（16）url：表示网址输入控件</td>
+</tr>
+<tr>
+<td>value</td>
+<td>用于为 input 元素设定值，value 值一般是给后端发送数据时使用</td>
+</tr>
+<tr>
+<td>name</td>
+<td>规定 input 元素的名称</td>
+</tr>
+<tr>
+<td>checked</td>
+<td>用来设置单选按钮、多选按钮的默认选中项</td>
+</tr>
+<tr>
+<td>placeholder</td>
+<td>表示提示文本，用来设置输入框的提示信息，告诉用户该输入框需要输入什么内容</td>
+</tr>
+<tr>
+<td>disabled</td>
+<td>用于禁用 input 元素，表示只读</td>
+</tr>
+<tr>
+<td>max</td>
+<td>max 表示最大值，表示数字输入控件（即 type&#x3D;”number”的 input 元素）允许输入的最大值</td>
+</tr>
+<tr>
+<td>min</td>
+<td>min 表示最小值，最小值，表示数字输入控件（即 type&#x3D;”number”的 input 元素）允许输入的最小值</td>
+</tr>
+<tr>
+<td>require</td>
+<td>表示必填字段，约束某项内容是必填项，比如规定”用户名“项，是必填项</td>
+</tr>
+</tbody></table>
+</article><div class="post-copyright"><div class="post-copyright__author"><span class="post-copyright-meta">文章作者: </span><span class="post-copyright-info"><a href="http://sliang2000.github.io">Sliang</a></span></div><div class="post-copyright__type"><span class="post-copyright-meta">文章链接: </span><span class="post-copyright-info"><a href="http://sliang2000.github.io/2022/06/25/html%E5%9F%BA%E7%A1%80/">http://sliang2000.github.io/2022/06/25/html%E5%9F%BA%E7%A1%80/</a></span></div><div class="post-copyright__notice"><span class="post-copyright-meta">版权声明: </span><span class="post-copyright-info">本博客所有文章除特别声明外，均采用 <a href="https://creativecommons.org/licenses/by-nc-sa/4.0/" target="_blank">CC BY-NC-SA 4.0</a> 许可协议。转载请注明来自 <a href="http://sliang2000.github.io" target="_blank">Sliang’ blog</a>！</span></div></div><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/tags/html/">html</a></div><div class="post_share"><div class="social-share" data-image="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" data-sites="facebook,twitter,wechat,weibo,qq"></div><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/css/share.min.css" media="print" onload="this.media='all'"><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/sharejs/dist/js/social-share.min.js" defer></script></div></div><div class="post-reward"><div class="reward-button"><i class="fas fa-qrcode"></i> 打赏</div><div class="reward-main"><ul class="reward-all"><li class="reward-item"><a href="/../imgs/wechat.jpg" target="_blank"><img class="post-qr-code-img" src="/../imgs/wechat.jpg" alt="wechat"/></a><div class="post-qr-code-desc">wechat</div></li><li class="reward-item"><a href="/../imgs/alipay.jpg" target="_blank"><img class="post-qr-code-img" src="/../imgs/alipay.jpg" alt="alipay"/></a><div class="post-qr-code-desc">alipay</div></li></ul></div></div><nav class="pagination-post" id="pagination"><div class="next-post pull-full"><a href="/2022/07/18/markdown/"><img class="next-cover" src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="onerror=null;src='/img/404.jpg'" alt="cover of next post"><div class="pagination-info"><div class="label">下一篇</div><div class="next_info">markdown</div></div></a></div></nav></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="is-center"><div class="avatar-img"><img src="/../imgs/logo.png" onerror="this.onerror=null;this.src='/img/friend_404.gif'" alt="avatar"/></div><div class="author-info__name">Sliang</div><div class="author-info__description">前端开发 </div></div><div class="card-info-data site-data is-center"><a href="/archives/"><div class="headline">文章</div><div class="length-num">4</div></a><a href="/tags/"><div class="headline">标签</div><div class="length-num">4</div></a><a href="/categories/"><div class="headline">分类</div><div class="length-num">3</div></a></div><a id="card-info-btn" target="_blank" rel="noopener" href="https://github.com/sliang2000/sliang2000.github.io"><i class="fab fa-github"></i><span>Follow Me</span></a><div class="card-info-social-icons is-center"><a class="social-icon" href="https://github.com/sliang2000" target="_blank" title="Github"><i class="fab fa-github"></i></a><a class="social-icon" href="mailto:liang20000409@163.com" target="_blank" title="Email"><i class="fas fa-envelope"></i></a><a class="social-icon" href="http://wpa.qq.com/msgrd?v=3&amp;uin=1006093787&amp;site=qq&amp;menu=yes" target="_blank" title="QQ"><i class="fa-brands fa-qq"></i></a></div></div><div class="card-widget card-announcement"><div class="item-headline"><i class="fas fa-bullhorn fa-shake"></i><span>公告</span></div><div class="announcement_content">欢迎来到我的新blog</div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="fas fa-stream"></i><span>目录</span><span class="toc-percentage"></span></div><div class="toc-content"><ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%96%87%E6%A1%A3%E8%AF%B4%E6%98%8E%E3%80%81%E6%96%87%E4%BB%B6%E7%BB%93%E6%9E%84%E3%80%81%E5%8A%9F%E8%83%BD%E6%A0%87%E7%AD%BE"><span class="toc-number">1.</span> <span class="toc-text">文档说明、文件结构、功能标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%9D%97%E7%BA%A7%E5%85%83%E7%B4%A0"><span class="toc-number">2.</span> <span class="toc-text">块级元素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%8C%BA%E5%9D%97%E6%A0%87%E7%AD%BE"><span class="toc-number">3.</span> <span class="toc-text">区块标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0"><span class="toc-number">4.</span> <span class="toc-text">内联元素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E7%89%B9%E6%AE%8A%E5%86%85%E8%81%94%E5%85%83%E7%B4%A0"><span class="toc-number">5.</span> <span class="toc-text">特殊内联元素</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%BD%AC%E4%B9%89%E5%AD%97%E7%AC%A6"><span class="toc-number">6.</span> <span class="toc-text">转义字符</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E8%A1%A8%E6%A0%BC%E6%A0%87%E7%AD%BE"><span class="toc-number">7.</span> <span class="toc-text">表格标签</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#%E6%A0%87%E7%AD%BE%E4%B8%AD%E7%9A%84%E5%B1%9E%E6%80%A7"><span class="toc-number">8.</span> <span class="toc-text">标签中的属性</span></a></li><li class="toc-item toc-level-1"><a class="toc-link" href="#input-%E5%85%83%E7%B4%A0%E4%B8%AD%E7%9A%84%E5%B1%9E%E6%80%A7"><span class="toc-number">9.</span> <span class="toc-text">input 元素中的属性</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="fas fa-history"></i><span>最新文章</span></div><div class="aside-list"><div class="aside-list-item"><a class="thumbnail" href="/2022/08/15/%E6%97%A5%E5%B8%B8/" title="骆驼样子"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="骆驼样子"/></a><div class="content"><a class="title" href="/2022/08/15/%E6%97%A5%E5%B8%B8/" title="骆驼样子">骆驼样子</a><time datetime="2022-08-15T10:02:00.000Z" title="发表于 2022-08-15 18:02:00">2022-08-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/08/15/hello-world/" title="Hello World"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="Hello World"/></a><div class="content"><a class="title" href="/2022/08/15/hello-world/" title="Hello World">Hello World</a><time datetime="2022-08-15T02:05:23.684Z" title="发表于 2022-08-15 10:05:23">2022-08-15</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/07/18/markdown/" title="markdown"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="markdown"/></a><div class="content"><a class="title" href="/2022/07/18/markdown/" title="markdown">markdown</a><time datetime="2022-07-18T08:27:00.000Z" title="发表于 2022-07-18 16:27:00">2022-07-18</time></div></div><div class="aside-list-item"><a class="thumbnail" href="/2022/06/25/html%E5%9F%BA%E7%A1%80/" title="html"><img src="https://i.loli.net/2020/05/01/gkihqEjXxJ5UZ1C.jpg" onerror="this.onerror=null;this.src='/img/404.jpg'" alt="html"/></a><div class="content"><a class="title" href="/2022/06/25/html%E5%9F%BA%E7%A1%80/" title="html">html</a><time datetime="2022-06-25T13:09:00.000Z" title="发表于 2022-06-25 21:09:00">2022-06-25</time></div></div></div></div></div></div></main><footer id="footer"><div id="footer-wrap"><div class="copyright">&copy;2022 By Sliang</div><div class="framework-info"><span>框架 </span><a target="_blank" rel="noopener" href="https://hexo.io">Hexo</a><span class="footer-separator">|</span><span>主题 </span><a target="_blank" rel="noopener" href="https://github.com/jerryc127/hexo-theme-butterfly">Butterfly</a></div><div class="footer_custom_text">树叶的一生难道只是为了落叶归根么</div></div></footer></div><div id="rightside"><div id="rightside-config-hide"><button id="readmode" type="button" title="阅读模式"><i class="fas fa-book-open"></i></button><button id="darkmode" type="button" title="浅色和深色模式转换"><i class="fas fa-adjust"></i></button><button id="hide-aside-btn" type="button" title="单栏和双栏切换"><i class="fas fa-arrows-alt-h"></i></button></div><div id="rightside-config-show"><button id="rightside_config" type="button" title="设置"><i class="fas fa-cog fa-spin"></i></button><button class="close" id="mobile-toc-button" type="button" title="目录"><i class="fas fa-list-ul"></i></button><button id="go-up" type="button" title="回到顶部"><i class="fas fa-arrow-up"></i></button></div></div><div><script src="/js/utils.js"></script><script src="/js/main.js"></script><script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.min.js"></script><script src="https://cdn.jsdelivr.net/npm/instant.page/instantpage.min.js" type="module"></script><script src="https://cdn.jsdelivr.net/npm/node-snackbar/dist/snackbar.min.js"></script><div class="js-pjax"></div><canvas class="fireworks" mobile="false"></canvas><script src="https://cdn.jsdelivr.net/npm/butterfly-extsrc/dist/fireworks.min.js"></script><script src="https://cdn.jsdelivr.net/npm/pjax/pjax.min.js"></script><script>let pjaxSelectors = ["head > title","#config-diff","#body-wrap","#rightside-config-hide","#rightside-config-show",".js-pjax"]
+
+var pjax = new Pjax({
+  elements: 'a:not([target="_blank"]):not([href="/music/"]):not([href="/no-pjax/"])',
+  selectors: pjaxSelectors,
+  cacheBust: false,
+  analytics: false,
+  scrollRestoration: false
+})
+
+document.addEventListener('pjax:send', function () {
+
+  // removeEventListener scroll 
+  window.tocScrollFn && window.removeEventListener('scroll', window.tocScrollFn)
+  window.scrollCollect && window.removeEventListener('scroll', scrollCollect)
+
+  typeof preloader === 'object' && preloader.initLoading()
+  document.getElementById('rightside').style.cssText = "opacity: ''; transform: ''"
+  
+  if (window.aplayers) {
+    for (let i = 0; i < window.aplayers.length; i++) {
+      if (!window.aplayers[i].options.fixed) {
+        window.aplayers[i].destroy()
+      }
+    }
+  }
+
+  typeof typed === 'object' && typed.destroy()
+
+  //reset readmode
+  const $bodyClassList = document.body.classList
+  $bodyClassList.contains('read-mode') && $bodyClassList.remove('read-mode')
+
+  typeof disqusjs === 'object' && disqusjs.destroy()
+})
+
+document.addEventListener('pjax:complete', function () {
+  window.refreshFn()
+
+  document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+  })
+
+  GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+  typeof chatBtnFn === 'function' && chatBtnFn()
+  typeof panguInit === 'function' && panguInit()
+
+  // google analytics
+  typeof gtag === 'function' && gtag('config', '', {'page_path': window.location.pathname});
+
+  // baidu analytics
+  typeof _hmt === 'object' && _hmt.push(['_trackPageview',window.location.pathname]);
+
+  typeof loadMeting === 'function' && document.getElementsByClassName('aplayer').length && loadMeting()
+
+  // prismjs
+  typeof Prism === 'object' && Prism.highlightAll()
+
+  typeof preloader === 'object' && preloader.endLoading()
+})
+
+document.addEventListener('pjax:error', (e) => {
+  if (e.request.status === 404) {
+    pjax.loadUrl('/404.html')
+  }
+})</script><script async data-pjax src="//busuanzi.ibruce.info/busuanzi/2.3/busuanzi.pure.mini.js"></script></div></body></html>
