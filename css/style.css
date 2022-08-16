@@ -2,9 +2,15 @@
   /* display: inline; 这个带不带都可以，本来就是inline */
   position: absolute;
   width: fit-content;
-  top: 9px;
+  top: 5px;
   left: 50%;
   transform: translateX(-50%);
+}
+
+#nav .menus_items .menus_item {
+  padding: 0 14px 0 14px;
+  font-size: 25px;
+  font-weight: bold;
 }
 
 #nav .menus_items .menus_item:hover .menus_item_child {
@@ -29,6 +35,7 @@ div#runtime {
   width: fit-content;
   color: black;
   font-weight: 700;
+  margin: 0 auto;
   padding: 0 10px;
   border-radius: 10px;
   background-color: rgba(0, 0, 0, 0);
