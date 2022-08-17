@@ -117,10 +117,6 @@ div#runtime {
   margin: 5px;
 }
 
-#recent-posts > .recent-post-item {
-  height: 15rem;
-}
-
 #recent-posts > .recent-post-item .post_cover img.post_bg {
   border-radius: 10px;
 }
