@@ -1,0 +1,357 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>标签外挂</title>
+      <link href="/2022/08/17/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/"/>
+      <url>/2022/08/17/%E6%A0%87%E7%AD%BE%E5%A4%96%E6%8C%82/</url>
+      
+        <content type="html"><![CDATA[<h2 id="1-行内文本样式"><a href="#1-行内文本样式" class="headerlink" title="1.行内文本样式"></a>1.行内文本样式</h2><p>标签语法</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% u 文本内容 %&#125;</span><br><span class="line">&#123;% emp 文本内容 %&#125;</span><br><span class="line">&#123;% wavy 文本内容 %&#125;</span><br><span class="line">&#123;% del 文本内容 %&#125;</span><br><span class="line">&#123;% kbd 文本内容 %&#125;</span><br><span class="line">&#123;% psw 文本内容 %&#125;</span><br></pre></td></tr></table></figure><p>样式预览</p><ol><li>带 <u>下划线</u> 的文本</li><li>带 <emp>着重号</emp> 的文本</li><li>带 <wavy>波浪线</wavy> 的文本</li><li>带 <del>删除线</del> 的文本</li><li>键盘样式的文本 <kbd>command</kbd> + <kbd>D</kbd></li><li>密码样式的文本：<psw>这里没有验证码</psw></li></ol><h2 id="2-行内文本-span"><a href="#2-行内文本-span" class="headerlink" title="2. 行内文本 span"></a>2. 行内文本 span</h2><p>标签语法</p><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% span 样式参数(参数以空格划分), 文本内容 %&#125;</span><br></pre></td></tr></table></figure><p>样式预览</p><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<span class='p red'>红色</span>、<span class='p yellow'>黄色</span>、<span class='p green'>绿色</span>、<span class='p cyan'>青色</span>、<span class='p blue'>蓝色</span>、<span class='p gray'>灰色</span>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<span class='p center logo large'>Volantis</span><span class='p center small'>A Wonderful Theme for Hexo</span></li></ul><h2 id="段落文本-p"><a href="#段落文本-p" class="headerlink" title="段落文本 p"></a>段落文本 p</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% p 样式参数(参数以空格划分), 文本内容 %&#125;</span><br></pre></td></tr></table></figure><ul><li>彩色文字<br>在一段话中方便插入各种颜色的标签，包括：<p class='p red'>红色</p>、<p class='p yellow'>黄色</p>、<p class='p green'>绿色</p>、<p class='p cyan'>青色</p>、<p class='p blue'>蓝色</p>、<p class='p gray'>灰色</p>。</li><li>超大号文字<br>文档「开始」页面中的标题部分就是超大号文字。<p class='p center logo large'>Volantis</p><p class='p center small'>A Wonderful Theme for Hexo</p></li></ul><h2 id="引用-note"><a href="#引用-note" class="headerlink" title="引用 note"></a>引用 note</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note [class] [no-icon] [style] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% note [color] [icon] [style] %&#125;</span><br><span class="line">Any content (support inline tags too.io).</span><br><span class="line">&#123;% endnote %&#125;</span><br></pre></td></tr></table></figure><div class="note simple"><p>默认 提示块标签</p></div><div class="note default simple"><p>default 提示块标签</p></div><div class="note primary simple"><p>primary 提示块标签</p></div><div class="note success simple"><p>success 提示块标签</p></div><div class="note info simple"><p>info 提示块标签</p></div><div class="note warning simple"><p>warning 提示块标签</p></div><div class="note danger simple"><p>danger 提示块标签</p></div><h2 id="上标标签-tip"><a href="#上标标签-tip" class="headerlink" title="上标标签 tip"></a>上标标签 tip</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tip [参数，可选] %&#125;文本内容&#123;% endtip %&#125;</span><br></pre></td></tr></table></figure><div class="tip "><p>default</p></div><div class="tip info"><p>info</p></div><div class="tip success"><p>success</p></div><div class="tip error"><p>error</p></div><div class="tip warning"><p>warning</p></div><div class="tip bolt"><p>bolt</p></div><div class="tip ban"><p>ban</p></div><div class="tip home"><p>home</p></div><div class="tip sync"><p>sync</p></div><div class="tip cogs"><p>cogs</p></div><div class="tip key"><p>key</p></div><div class="tip bell"><p>bell</p></div><div class="tip fa-atom"><p>自定义 font awesome 图标</p></div><h2 id="动态标签-anima"><a href="#动态标签-anima" class="headerlink" title="动态标签 anima"></a>动态标签 anima</h2><figure class="highlight plaintext"><table><tr><td class="code"><pre><span class="line">&#123;% tip [参数，可选] %&#125;文本内容&#123;% endtip %&#125;</span><br></pre></td></tr></table></figure><div class="tip warning faa-horizontal animated"><p>warning</p></div><div class="tip ban faa-flash animated"><p>ban</p></div><div class="tip warning faa-horizontal animated faa-fast"><p>warning</p></div><div class="tip ban faa-flash animated faa-slow"><p>ban</p></div><div class="tip warning faa-horizontal animated-hover"><p>warning</p></div><div class="tip ban faa-flash animated-hover"><p>ban</p></div><div class="tip warning faa-parent animated-hover"><p class="faa-horizontal">warning</p></div><div class="tip ban faa-parent animated-hover"><p class="faa-flash">ban</p></div>]]></content>
+      
+      
+      <categories>
+          
+          <category> 博客相关 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 标签外挂 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/17/12/"/>
+      <url>/2022/08/17/12/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/16/hexo/"/>
+      <url>/2022/08/16/hexo/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随便写写 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/11/"/>
+      <url>/2022/08/15/11/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 实用教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> butterfly </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/00/"/>
+      <url>/2022/08/15/00/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/22/"/>
+      <url>/2022/08/15/22/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> html </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/33/"/>
+      <url>/2022/08/15/33/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 随便写写 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 7 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/44/"/>
+      <url>/2022/08/15/44/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题解决 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 6 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/55/"/>
+      <url>/2022/08/15/55/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 问题解决 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 5 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/77/"/>
+      <url>/2022/08/15/77/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 3 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/66/"/>
+      <url>/2022/08/15/66/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 4 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/88/"/>
+      <url>/2022/08/15/88/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 学习笔记 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 2 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title></title>
+      <link href="/2022/08/15/9/"/>
+      <url>/2022/08/15/9/</url>
+      
+        <content type="html"><![CDATA[]]></content>
+      
+      
+      <categories>
+          
+          <category> 资源分享 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 1 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>骆驼样子</title>
+      <link href="/2022/08/15/%E6%97%A5%E5%B8%B8/"/>
+      <url>/2022/08/15/%E6%97%A5%E5%B8%B8/</url>
+      
+        <content type="html"><![CDATA[<h1 id="骆驼样子"><a href="#骆驼样子" class="headerlink" title="骆驼样子"></a>骆驼样子</h1><p>《骆驼祥子》讲述的是中国北平城里的一个年轻好强、充满生命活力的人力车夫祥子三起三落的人生经历。</p><p>祥子来自农村，是个破产的青年农民，勤劳、纯朴、善良，保留着农村哺育他、教养他的一切，却再也不愿意回农村去了。从农村来到城市的祥子，渴望以自己的诚实劳动买一辆属于自己的车。做个独立的劳动者是祥子的志愿、希望、甚至是宗教，凭着勤劳和坚忍，他用三年的时间省吃俭用，终于实现了理想，成为自食其力的上等车夫。但刚拉半年，车就在兵荒马乱中被逃兵掳走，祥子失去了洋车，只牵回三匹骆驼。祥子没有灰心，他依然倔强地从头开始，更加克己地拉车攒钱。可是，还没有等他再买上车，所有的积蓄又被侦探敲诈洗劫一空，买车的梦想再次成泡影。</p><p>当祥子又一次拉上自己的车，是以与虎妞成就畸形的婚姻为代价的。好景不长，因虎妞死于难产，他不得不卖掉人力车去办丧事。至此，他的人生理想彻底破灭了。再加上他心爱的女人小福子的自杀，吹熄了心中最后一朵希望的火花。连遭生活的打击，祥子开始丧失了对于生活的任何企求和信心，再也无法鼓起生活的勇气，不再像从前一样以拉车为自豪，他厌恶拉车，厌恶劳作。</p><p>被生活捉弄的祥子开始游戏生活，吃喝嫖赌。为了喝酒，祥子到处骗钱，堕落为“城市垃圾”。祥子由一个“体面的、要强的、好梦想的、利己的、个人的、健壮的、伟大的”底层劳动者沦为一个“堕落的、自私的、不幸的、社会病胎里的产儿，个人主义的末路鬼”。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 随便写写 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 小说 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>

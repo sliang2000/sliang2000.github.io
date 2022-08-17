@@ -116,3 +116,34 @@ div#runtime {
   font-size: 1.2rem;
   margin: 5px;
 }
+
+/* 最新文章图标 */
+.newPost-left,
+.newPost-right {
+  position: absolute;
+  top: 0;
+  color: white;
+  padding: 0 15px;
+  background-color: var(--leonus-blue);
+  border-radius: 0 0 10px 10px;
+}
+
+.newPost-left {
+  left: 15px;
+}
+
+.newPost-right {
+  right: 15px;
+}
+
+#recent-posts > .recent-post-item {
+  height: 15rem;
+}
+
+#recent-posts > .recent-post-item .post_cover img.post_bg {
+  border-radius: 10px;
+}
+
+#aside-content .aside-list > .aside-list-item .thumbnail > img {
+  border-radius: 10px;
+}
