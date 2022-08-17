@@ -3304,7 +3304,7 @@ ul.categoryBar-list {
 li.categoryBar-list-item {
   font-weight: bold;
   display: inline-block;
-  height: 150px !important;
+  height: 110px !important;
   margin: 5px 0.5% 0 0.5% !important;
   background-image: -webkit-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
   background-image: -moz-linear-gradient(rgba(0,0,0,0.4) 25%, rgba(16,16,16,0) 100%);
