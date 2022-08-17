@@ -150,7 +150,15 @@ setInterval(() => {
     currentTimeHtml += time[0] + " YEAR ";
   }
   currentTimeHtml +=
-    time[1] + " DAYS " + time[2] + " : " + time[3] + " : " + time[4];
+    "本站已运行:  " +
+    time[1] +
+    " 天 " +
+    time[2] +
+    " 时 " +
+    time[3] +
+    " 分 " +
+    time[4] +
+    " 秒 ";
   document.getElementById("runtime").innerHTML = currentTimeHtml;
 }, 1000);
 
