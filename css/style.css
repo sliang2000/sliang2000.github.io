@@ -173,3 +173,11 @@ div#category {
 #page-header.not-top-img #nav {
   background: rgba(255, 255, 255, 0.2);
 }
+
+#nav #search-button {
+  position: absolute;
+  right: 120px;
+  top: 4px;
+  font-size: 25px;
+  font-weight: 600;
+}
