@@ -147,7 +147,7 @@ setInterval(() => {
   }
   let currentTimeHtml = "";
   if (time[0] != 0) {
-    currentTimeHtml += time[0] + " YEAR ";
+    currentTimeHtml += time[0] + " 年 ";
   }
   currentTimeHtml +=
     "本站已运行:  " +
