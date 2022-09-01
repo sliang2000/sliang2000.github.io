@@ -193,7 +193,7 @@ document.addEventListener("DOMContentLoaded", function () {
     },
   };
 
-  document.getElementById("dark").addEventListener("click", function () {
+  document.getElementById("darkmodeBt").addEventListener("click", function () {
     navFn.switchDarkMode();
   });
 });
